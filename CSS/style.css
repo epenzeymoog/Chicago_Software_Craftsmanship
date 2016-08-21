@@ -1,0 +1,260 @@
+body{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#64a3ec+0,599ae6+25,007aff+100 */
+background: #64a3ec; /* Old browsers */
+background: -moz-linear-gradient(top,  #64a3ec 0%, #599ae6 25%, #007aff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #64a3ec 0%,#599ae6 25%,#007aff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #64a3ec 0%,#599ae6 25%,#007aff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+color: #F7F7FF;
+display: flex;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64a3ec', endColorstr='#007aff',GradientType=0 ); /* IE6-9 */
+justify-content: center;
+font-size: 16px;
+margin: 0 auto;
+width: 800px;
+}
+
+.header{
+  margin-top: 40px;
+}
+
+.header__img{
+  float: left;
+}
+
+.nav{
+  display: flex;
+  float: right;
+  margin-top: 58px;
+}
+
+.flex-box{
+  display: flex;
+  justify-content: center;
+}
+
+.nav__item{
+  font-family: rift-soft;
+  font-size: 23.5px;
+  letter-spacing: .25px;
+  padding-left: 45px;
+}
+
+.nav__item:
+}
+
+.nav__item_active{
+  color: pink;
+}
+
+.nav__link{
+  text-decoration: none;
+  color:white;
+}
+
+.nav__link:visited{
+  color:white;
+}
+.nav__link:hover{
+  text-decoration: underline;
+}
+
+.main-header{
+  clear: both;
+  color: white;
+  display: flex;
+  font-family: rift-soft;
+  font-size: 52.5px;
+  justify-content: center;
+  letter-spacing: 5.2;
+  padding-top: 30px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+}
+
+.sub-header{
+  font-family: 'Merriweather', serif;
+  font-size: 23.75px;
+  letter-spacing: .25px;
+  line-height: 45px;
+}
+
+.body-text{
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  letter-spacing: .25px;
+  line-height: 25px;
+}
+
+.small-italic-text{
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: .8em;
+  margin-top: 35px;
+}
+
+.text-wrapper{
+  margin-top: 30px;
+}
+
+.cloud-container{
+  height: 175px;
+  position: relative;
+  width: 800px;
+}
+
+.cloud1__img{
+  margin-top: 55px;
+  margin-left: 150px;
+  position: absolute;
+}
+
+.cloud2__img{
+  margin-top: 100px;
+  margin-left: 395px;
+  position: absolute;
+}
+
+.cloud3__img{
+  margin-top: 35px;
+  margin-left: 580px;
+  position: absolute;
+}
+
+.skyline{
+  margin-top: 60px;
+}
+
+.tagline-wrapper{
+  margin-top: 75px;
+}
+
+.tagline{
+  margin-top: 12px;
+}
+
+.line{
+  margin: 100px 0px;
+}
+
+.secondary-title{
+  font-family: rift-soft;
+  font-size: 45.7px;
+  margin-bottom: 55px;
+}
+
+.events-box{
+  height: 650px;
+  width: 590px;
+}
+
+.event-title{
+  font-family: rift-soft;
+  font-size: 32px;
+  letter-spacing: .35px
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+
+.body__link{
+  color: #F7F7FF;
+}
+
+.regular{
+  font-weight: 400;
+}
+
+.event-image{
+  float: left;
+  margin-bottom: 25px;
+}
+
+.event-detail-box{
+  float: right;
+  margin-left: 35px;
+  width: 407px;
+}
+
+.event-detail{
+  margin-bottom: 15px;
+}
+
+.float-left{
+  float: left;
+}
+
+.read__more{
+  float: right;
+}
+
+.float-right{
+  float: right;
+  margin-right: 20px;
+}
+
+.btn{
+  background-color: #EA526F;
+  border: 1.4px solid #424651;
+  border-radius: 4.2px;
+  color: #F7F7FF;
+  font-family: rift-soft;
+  font-weight: 700;
+}
+
+.email{
+  background: #fff;
+  border: solid 1px #424651;
+  border-radius: 5.6px;
+  box-shadow:inset 0 0 1px 1px #888;
+  height: 33px;
+  width: 205px;
+}
+
+input[type=email]{
+  color: #4A4A4A;
+  font-family: 'Merriweather';
+  font-weight: 300;
+  padding: 6px 6px;
+}
+
+.sign-up{
+  height: 33px;
+  width: 82px;
+  background-color: #70E6C5;
+  color: #F7F7FF;
+}
+
+.main-rsvp{
+  clear: both;
+  float: left;
+  font-size: 28px;
+  height: 43px;
+  letter-spacing: 3.21px;
+  width: 147px;
+}
+
+.attend-event{
+  margin-top: 52px;
+}
+
+.secondary-rsvp{
+  float: right;
+  font-size: 16px;
+  height: 26px;
+  letter-spacing: 1.93px;
+  width: 88px;
+}
+
+.footer__item{
+  font-family: rift-soft;
+  letter-spacing: .20px;
+  margin-right: 20px;
+}
+
+footer{
+  margin-bottom: 100px;
+}
+
