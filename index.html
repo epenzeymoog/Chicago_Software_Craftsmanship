@@ -1,6 +1,6 @@
 <DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -14,122 +14,123 @@
 
 <body>
 
+  <header class="header">
 
-<header class="header">
+    <div class="nav">
+      <img class="header__company_logo" src="images/CSC-Logo.svg">
 
-<img class="header__img" src="images/CSC-Logo.svg">
+      <ul class="main-nav">
+        <div class="flex-box">
+          <li class="main-nav__item nav__item_active"><a class="nav__link nav__link_current" href="/events">HOME</a></li>
+          <li class="main-nav__item nav_item"><a class="nav__link" href="/events">EVENTS</a></li>
+          <li class="main-nav__item"><a class="nav__link" href="/about" >ABOUT</a></li>
+          <li class="main-nav__item"><a class="nav__link" href="/resources" >RESOURCES</a></li>
+        </div>
+      </ul>
+    </div>
 
-<ul class="nav">
-  <div class="flex-box">
-    <li class="nav__item nav__item_active"><a class="nav__link" href="/events">EVENTS</a></li>
-    <li class="nav__item"><a class="nav__link" href="/about" >ABOUT</a></li>
-    <li class="nav__item"><a class="nav__link" href="/resources" >RESOURCES</a></li>
-  </div>
-</ul>
+    <section class="text-wrapper">
+      <h1 class="main-header">CHICAGO SOFTWARE CRAFTSMANSHIP</h1>
+    </section>
 
+  </header>
 
-</header>
+  <main>
+    <section class="cloud-container">
+      <img class="cloud1__img" src="images/Cloud-1.svg">
+      <img class="cloud2__img" src="images/Cloud-2.svg">
+      <img class="cloud3__img" src="images/Cloud-3.svg">
+    </section>
 
-<section class="text-wrapper">
-<h1 class="main-header">CHICAGO SOFTWARE CRAFTSMANSHIP</h1>
-</section>
+    <section class="text-wrapper">
+      <h2 class="sub-header flex">Our mission is to spread the knowledge of high 
+      </h2>
+      <h2 class="sub-header flex">quality software through thought-provoking topics.</h2>
+    </section>
 
-<section class="cloud-container">
-<img class="cloud1__img" src="images/Cloud-1.svg">
-<img class="cloud2__img" src="images/Cloud-2.svg">
-<img class="cloud3__img" src="images/Cloud-3.svg">
-</section>
+    <img class="skyline flex" src="images/Skyline.svg">
 
-<section class="text-wrapper">
-<h2 class="sub-header flex">Our mission is to spread the knowledge of high 
-</h2>
-<h2 class="sub-header flex">quality software through thought-provoking topics.</h2>
-</section>
+    <div class=tagline-wrapper>
+      <p class="body-text tagline flex">We focus on big ideas rather than specific</p>
+      <p class="body-text tagline flex">skills and aim to explore new</p>
+      <p class="body-text tagline flex">concepts within the world of software.</p>
 
-<img class="skyline flex" src="images/Skyline.svg">
+      <h4 class="small-italic-text flex">Developers of all levels are welcome.</h4>
+    </div>
 
+    <section class=flex>
+      <img class="line flex" src="images/line.svg">
+    </section>
 
-<div class=tagline-wrapper>
-<h3 class="tagline flex">We focus on big ideas rather than specific</h3>
-<h3 class="tagline flex">skills and aim to explore new</h3>
-<h3 class="tagline flex">concepts within the world of software.</h3>
+    <section class="events-box">
 
-<h4 class="small-italic-text flex">Developers of all levels are welcome.</h4>
+    <h2 class="secondary-title">Upcoming Events</h2>
 
-</div>
+    <section class="float-left">
+      <img class="event-image" src="images/FP_Image.svg">
+      <button class="btn main-rsvp">RSVP</button>
+    </section>
 
-<section class=flex>
-<img class="line flex" src="images/line.svg">
-</section>
+    <section class="event-detail-box">
+      <h3 class="event-title">Adopting Functional Programming: The Good, the Familiar, the Unknown</h3>
 
+      <article class="event-detail">
+        <p class="body-text secondary-text">Talk by <a class="body__link" href="#">Colin Jones,</a> Software Crafter at <a class="body__link" href="#">8th Light</a></p>
+      </article>
 
-<section class="events-box">
+    <article class="event-detail">
+      <p class="body-text primary-text">Thursday, August 10 th, 2016</p>
+      <p class="body-text">7:00 PM</p>
+    </article>
 
-<h2 class="secondary-title">Upcoming Events</h2>
+    <article class="event-detail">
+      <p class="body-text primary-text">Location: 1871 Room 5</p>
+      <p class="body-text secondary-text">9th floor of Merchandise Mart</p>
+      <p class="body-text secondary-text">468 N Wells St.</p>
+      <p class="body-text secondary-text">Chicago IL</p>
+    </article>
 
-<section class="float-left">
-<img class="event-image" src="images/FP_Image.svg">
-<button class="btn main-rsvp">RSVP</button>
-</section>
+    <p class="body-text primary-text">What is functional programming (FP) and how can developers use it to increase the quality of their software? <span class="secondary-text">This talk will explore the benefits of FP, how it differs from object oriented programming, and discuss... <a class="body__link read__more" href="#">Read more</a></span> </p>
 
-<section class="event-detail-box">
-<h3 class="event-title">Adopting Functional Programming: The Good, the Familiar, the Unknown</h3>
+    <p class="detail-text"> </p>
 
-<article class="event-detail">
-<p class="body-text">Talk by <a class="body__link" href="#">Colin Jones,</a> Software Crafter at <a class="body__link" href="#">8th Light</a></p>
-</article>
+    <article class="attend-event">
+      <button class="btn secondary-rsvp">RSVP</button>
+      <p class="body-text float-right"> <a class="body__link" href="#">18 people attending</a></p>  
+    </article>
 
-<article class="event-detail">
-<p class="body-text regular">Thursday, August 10th, 2016</p>
-<p class="body-text regular">7:00 PM</p>
-</article>
+    </section>
+    </section>
 
-<article class="event-detail">
-<p class="body-text regular">Location: 1871 Room 5</p>
-<p class="body-text">9th floor of Merchandise Mart</p>
-<p class="body-text">468 N Wells St.</p>
-<p class="body-text">Chicago IL</p>
-</article>
+    <section class=flex>
+      <img class="line flex" src="images/line.svg">
+    </section>
 
-<p class="body-text"><span class="regular">What is functional programming (FP) and how can developers use it to increase the quality of their software?</span> This talk will explore the benefits of FP, how it differs from object oriented programming, and discuss...</p>
+    <p class="body-text">Enter your email to stay in-the-know about upcoming events.</p>
+    <p class="body-text">We promise we don’t spam.</p>
 
-<p class="body-text"> <a class="body__link read__more" href="#">Read more</a></p>
+    <input type="email" class="email" name="email" value="email address" required>
 
-<article class="attend-event">
-<button class="btn secondary-rsvp">RSVP</button>
-<p class="body-text float-right"> <a class="body__link" href="#">18 people attending</a></p> 
+    <button type="submit" class="sign-up">SIGN UP</button>
 
-</article>
+    <img class="skyline flex" src="images/Skyline.svg">
 
-</section>
-</section>
+    <h3 class="event-title flex">CHICAGO SOFTWARE CRAFTSMANSHIP</h3>
 
-<section class=flex>
-<img class="line flex" src="images/line.svg">
-</section>
+    <section class=flex>
+      <img class="line flex" src="images/line.svg">
+    </section>
 
-<p class="body-text">Enter your email to stay in-the-know about upcoming events. We promise we don’t spam.</p>
+  </main>
 
-<input type="email" class="email" name="email" value="email address" required>
-
-<button type="submit" class="sign-up">SIGN UP</button>
-
-<img class="skyline flex" src="images/Skyline.svg">
-
-<h3 class="event-title flex">CHICAGO SOFTWARE CRAFTSMANSHIP</h3>
-
-<section class=flex>
-<img class="line flex" src="images/line.svg">
-</section>
-
-<footer>
-<ul class="flex-box">
-<li class="nav__link footer__item flex">privacy policy</li>
-<li class="nav__link footer__item flex">site map</li>       
-<li class="nav__link footer__item flex">contact us</li>
-<li class="footer__item flex">© 2016 Chicago Software Craftsmanship</li>
-</ul>
-</footer>
+  <footer>
+    <ul class="flex-box">
+      <li class="nav__link footer__item flex">privacy policy</li>
+      <li class="nav__link footer__item flex">site map</li>  
+      <li class="nav__link footer__item flex">contact us</li>
+      <li class="footer__item flex">© 2016 Chicago Software Craftsmanship</li>
+    </ul>
+  </footer>
 
 </body>
 </html>
