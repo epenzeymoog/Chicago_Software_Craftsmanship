@@ -50,11 +50,12 @@ h4{
   font-weight: 300;
 }
 
-.small-italic-text{
+.emphasized-text{
   font-family: 'Merriweather', serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
-  font-size: .8em;
+  font-size: 16px;
+  letter-spacing: 1.2px;
   margin-top: 35px;
 }
 
@@ -99,7 +100,7 @@ h4{
   margin-top: 58px;
 }
 
-.main-nav__item{
+.main-nav__nav-item{
   font-family: rift-soft;
   font-size: 23.5px;
   letter-spacing: .25px;
@@ -111,16 +112,16 @@ h4{
   text-decoration: none;
 }
 
+.main-nav__nav-link:hover{
+  text-decoration: underline;
+}
+
 .main-nav__nav-link:visited{
   color: #F7F7FF;
 }
 
 .main-nav__nav-link--current{
   color: #F7F7FF;
-  text-decoration: underline;
-}
-
-.main-nav__nav-link:hover{
   text-decoration: underline;
 }
 
@@ -173,11 +174,11 @@ h4{
   margin-top: 75px;
 }
 
-.tagline{
+.tagline-wrapper__tagline-margin{
   margin-top: 12px;
 }
 
-.line{
+.flex__line-flex{
   margin: 100px 0px;
 }
 
@@ -200,9 +201,7 @@ h4{
   margin-bottom: 25px;
 }
 
-
-
-.event-image{
+.events-box__event-image{
   float: left;
   margin-bottom: 25px;
 }
