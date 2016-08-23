@@ -9,3 +9,4 @@ upcoming events, as well as a list of high-quality, curated resources for develo
 <p>Clone the repo.</p>
 <p>This project has SASS styling. You can quickly install SASS by following the directions on their documentation:</p>
 <p><a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#using_sass">SASS Documentation</a></p>
+<p>In order to view the website locally, right click on the <code>index.html</code> file and select "Open in Browser."
