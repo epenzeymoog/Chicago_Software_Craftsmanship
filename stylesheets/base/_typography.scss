@@ -28,7 +28,7 @@ h1 {
   letter-spacing: 1.2px; }
 
 .body__link {
-  color: #F7F7FF;
+  color: $primary-color;
   font-family: 'Merriweather', serif;
   font-size: 14px;
   letter-spacing: 1.2px;
@@ -38,7 +38,7 @@ h1 {
   font-family: rift-soft;
   font-size: 45.7px; }
 
-  .main-nav__nav-item {
+.main-nav__nav-item {
   font-family: rift-soft;
   font-size: 23.5px;
   letter-spacing: .25px;

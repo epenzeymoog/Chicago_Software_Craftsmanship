@@ -1,4 +1,50 @@
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#64a3ec+0,599ae6+25,007aff+100 */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 h1 {
   color: #F7F7FF;
   font-family: rift-soft;
@@ -57,8 +103,6 @@ h1 {
   color: #F7F7FF;
   text-decoration: underline; }
 
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#64a3ec+0,599ae6+25,007aff+100 */
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#64a3ec+0,599ae6+25,007aff+100 */
 body {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#64a3ec+0,599ae6+25,007aff+100 */
   background: #64a3ec;
@@ -118,7 +162,7 @@ header, footer, body {
   margin-bottom: 50px; }
 
 .btn {
-  background-color: #EA526F;
+  background-color: red;
   border: 1.4px solid #F7F7FF;
   border-radius: 4.2px;
   color: #F7F7FF;
@@ -126,14 +170,14 @@ header, footer, body {
   font-weight: 700; }
 
 .primary-button {
-  background-color: #EA526F;
+  background-color: red;
   border: 1.4px solid #F7F7FF;
   border-radius: 4.2px;
   color: #F7F7FF;
   font-family: rift-soft;
   font-weight: 700; }
 
-.btn__main-rsvp {
+.btn__main {
   clear: both;
   float: left;
   font-size: 28px;
@@ -141,18 +185,17 @@ header, footer, body {
   letter-spacing: 3.21px;
   width: 147px; }
 
-.btn__secondary-rsvp {
+.btn__secondary {
   float: right;
   font-size: 16px;
   height: 26px;
   letter-spacing: 1.93px;
   width: 88px; }
 
-.sign-up {
-  background-color: #EA526F;
-  border: 1px solid #424651;
+.btn__tertiary {
+  background-color: green;
+  border: 1px solid #F7F7FF;
   border-radius: 5.6px;
-  box-shadow: 1px 3px 5px #464646;
   color: #F7F7FF;
   font-family: rift-soft;
   font-size: 19.6px;
@@ -168,9 +211,8 @@ input[type=email] {
 
 .email {
   background: #fff;
-  border: solid 1px #424651;
+  border: solid 1px #424651 #F7F7FF;
   border-radius: 5.6px;
-  box-shadow: inset 0 0 1px 1px #464646;
   height: 34px;
   width: 205px; }
 

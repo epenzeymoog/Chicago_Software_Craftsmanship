@@ -1,13 +1,13 @@
 .btn {
-  background-color: #EA526F;
+  background-color: $primary-btn-background;
   border: 1.4px solid $primary-color;
   border-radius: 4.2px;
-  color: #F7F7FF;
+  color: $primary-color;
   font-family: rift-soft;
   font-weight: 700; }
 
 .primary-button{
-  background-color: $btn-background;
+  background-color: $primary-btn-background;
   border: 1.4px solid $primary-color;
   border-radius: 4.2px;
   color: $primary-color;
@@ -15,7 +15,7 @@
   font-weight: $bold;
 }
 
-.btn__main-rsvp{
+.btn__main{
   clear: both;
   float: left;
   font-size: 28px;
@@ -24,7 +24,7 @@
   width: 147px;
 }
 
-.btn__secondary-rsvp{
+.btn__secondary{
   float: right;
   font-size: 16px;
   height: 26px;
@@ -32,11 +32,10 @@
   width: 88px;
 }
 
-.sign-up{
-  background-color: $btn-background;
-  border: 1px solid #424651;
+.btn__tertiary{
+  background-color: $secondary-btn-background;
+  border: 1px solid $primary-color;
   border-radius: 5.6px;
-  box-shadow: 1px 3px 5px #464646;
   color: $primary-color;
   font-family: $rift;
   font-size: 19.6px;
@@ -46,7 +45,7 @@
 }
 
 input[type=email]{
-  color: #4A4A4A;
+  color: $grey;
   font-family: $Merriweather;
   font-weight: $light;
   padding: 6px 6px;
@@ -54,9 +53,8 @@ input[type=email]{
 
 .email{
   background: #fff;
-  border: solid 1px #424651;
+  border: solid 1px #424651 $primary-color;
   border-radius: 5.6px;
-  box-shadow:inset 0 0 1px 1px #464646;
   height: 34px;
   width: 205px;
 }
