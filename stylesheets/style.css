@@ -58,12 +58,14 @@ h1 {
   text-decoration: underline; }
 
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#64a3ec+0,599ae6+25,007aff+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#64a3ec+0,599ae6+25,007aff+100 */
 body {
   background: #72bcd4;
   width: 800px;
   display: flex;
   justify-content: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: #F7F7FF; }
 
 body, header, footer, body {
   justify-content: center; }

@@ -1,12 +1,14 @@
+@import "../base/variables";
+
 body{
   background: #72bcd4;
   width: 800px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  color: $primary-color;
 }
 body, header, footer, body{
-  // display: flex;
   justify-content: center;
 }
 

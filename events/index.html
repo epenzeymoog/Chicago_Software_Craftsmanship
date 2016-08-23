@@ -3,13 +3,17 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="shortcut icon" href="">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/base/reset.css">
+    <link rel="stylesheet" href="../stylesheets/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chicago Software Craftsmanship</title>
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700"rel="stylesheet">
     <script src="https://use.typekit.net/lak1uqr.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="https://use.typekit.net/zpp4fuf.js"></script>
+    <script src="https://use.typekit.net/zpp4fuf.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
   </head>
 
 <body>
@@ -17,22 +21,89 @@
   <header class="header">
 
     <div class="nav">
-      <img class="header__company_logo" src="images/CSC-Logo.svg">
+      <img class="header__company_logo" src="../images/CSC-Logo.svg">
 
       <ul class="main-nav">
         <div class="flex-box">
-          <li class="main-nav__item"><a class="nav__link main-nav__nav-link--current" href="/events">HOME</a></li>
-          <li class="main-nav__item nav_item"><a class="main-nav__nav-link" href="/events">EVENTS</a></li>
-          <li class="main-nav__item"><a class="main-nav__nav-link" href="/about" >ABOUT</a></li>
-          <li class="main-nav__item"><a class="main-nav__nav-link" href="/resources" >RESOURCES</a></li>
+          <li class="main-nav__nav-item"><a class="main-nav__nav-link main-nav__nav-link--current" href="../index.html">HOME</a></li>
+          <li class="main-nav__nav-item"><a class="main-nav__nav-link" href="./events/index.html">EVENTS</a></li>
+          <li class="main-nav__nav-item"><a class="main-nav__nav-link" href="./about/index.html" >ABOUT</a></li>
+          <li class="main-nav__nav-item"><a class="main-nav__nav-link" href="./resources/index.html">RESOURCES</a></li>
         </div>
       </ul>
     </div>
 
     <h1 class="header__page-title">CHICAGO SOFTWARE CRAFTSMANSHIP</h1>
 
-  </header>
+    <h2 class="section-title bottom-margin">Upcoming Events</h2>
 
-  </body>
-  </html>
-  </DOCTYPE>
+    <section class="event-box">
+      <div class="float-left">
+        <img class="event-box__event-image" src="../images/FP_Image.svg">
+        <button class="btn btn__main-rsvp">RSVP</button>
+      </div>
+
+      <article class="event-detail-box">
+        <h3 class="event-title">Adopting Functional Programming: The Good, the Familiar, the Unknown</h3>
+
+        <div class="event-detail">
+          <p class="body-text secondary-text">Talk by <a class="body__link" href="#">Colin Jones,</a> Software Crafter at <a class="body__link" href="#">8th Light</a></p>
+        </div>
+
+        <div class="event-detail">
+          <p class="body-text primary-text">Thursday, August 10 th, 2016</p>
+          <p class="body-text">7:00 PM</p>
+        </div>
+
+        <div class="event-detail">
+          <p class="body-text primary-text">Location: 1871 Room 5</p>
+          <p class="body-text secondary-text">9th floor of Merchandise Mart</p>
+          <p class="body-text secondary-text">468 N Wells St.</p>
+          <p class="body-text secondary-text">Chicago IL</p>
+        </div>
+
+        <p class="body-text primary-text">What is functional programming (FP) and how can developers use it to increase the quality of their software? <span class="secondary-text">This talk will explore the benefits of FP, how it differs from object oriented programming, and discuss... <a class="body__link read__more" href="#">Read more</a></span> </p>
+
+        <div class="event-detail top-margin">
+          <button class="btn btn__secondary-rsvp">RSVP</button>
+          <p class="body-text float-right"> <a class="body__link" href="#">18 people attending</a></p>  
+        </div>
+
+      </article>
+
+    </section>
+
+    <div class="flex">
+      <img class="flex__line-flex" src="../images/line.svg">
+    </div>
+
+    <p class="body-text">Enter your email to stay in-the-know about upcoming events.</p>
+    <p class="body-text">We promise we don’t spam.</p>
+
+
+    <div class="top-margin">
+      <input type="email" class="email" name="email" value="email address" required>
+      <button type="submit" class="sign-up">SIGN UP</button>
+    </div>
+
+    <img class="skyline flex" src="../images/Skyline.svg">
+
+    <h3 class="footer__end-title flex top-margin">CHICAGO SOFTWARE CRAFTSMANSHIP</h3>
+
+    <div class="flex">
+      <img class="flex__line-flex-secondary" src="../images/line.svg">
+    </div>
+
+  </main>
+
+  <footer>
+    <ul class="flex-box">
+      <li class="nav__link footer__item flex">privacy policy</li>
+      <li class="nav__link footer__item flex">site map</li>  
+      <li class="nav__link footer__item flex">contact us</li>
+      <li class="footer__item flex">© 2016 Chicago Software Craftsmanship</li>
+    </ul>
+  </footer>
+</div>
+</body>
+</html>
