@@ -1,6 +1,6 @@
 .btn {
   background-color: #EA526F;
-  border: 1.4px solid #424651;
+  border: 1.4px solid $primary-color;
   border-radius: 4.2px;
   color: #F7F7FF;
   font-family: rift-soft;
@@ -8,7 +8,7 @@
 
 .primary-button{
   background-color: $btn-background;
-  border: 1.4px solid #424651;
+  border: 1.4px solid $primary-color;
   border-radius: 4.2px;
   color: $primary-color;
   font-family: $rift;

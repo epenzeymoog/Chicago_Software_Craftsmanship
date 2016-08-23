@@ -5,7 +5,7 @@
 quality software through thought-provoking topics. This website communicate the group's mission, information on 
 upcoming events, as well as a list of high-quality, curated resources for developers.</p>
 
-<h2>Check me out by:</h2>
+<h2>Check me out:</h2>
 <p>Clone the repo.</p>
 <p>This project has SASS styling. You can quickly install Sass by completing the following directions 
 or using <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#using_sass">their documentation.</a></p>
