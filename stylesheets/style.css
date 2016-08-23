@@ -148,10 +148,10 @@ header, footer, body {
 .flex__line-flex-secondary {
   margin-top: 100px; }
 
-.float-left {
+.left {
   float: left; }
 
-.float-right {
+.right {
   float: right;
   margin-right: 20px; }
 
@@ -300,9 +300,6 @@ footer {
 
 .header {
   margin-top: 50px; }
-
-.header__company_logo {
-  float: left; }
 
 .nav {
   height: 115px;
