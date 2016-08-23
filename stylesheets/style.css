@@ -307,7 +307,6 @@ footer {
 
 .main-nav {
   display: flex;
-  float: right;
   margin-top: 58px; }
 
 .main-nav__nav-item {
@@ -319,12 +318,10 @@ footer {
 .main-nav__nav-link {
   color: #F7F7FF;
   text-decoration: none; }
-
-.main-nav__nav-link:hover {
-  text-decoration: underline; }
-
-.main-nav__nav-link:visited {
-  color: #F7F7FF; }
+  .main-nav__nav-link:hover {
+    text-decoration: underline; }
+  .main-nav__nav-link:visited {
+    color: #F7F7FF; }
 
 .main-nav__nav-link--current {
   color: #F7F7FF;

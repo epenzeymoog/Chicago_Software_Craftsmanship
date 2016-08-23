@@ -9,7 +9,6 @@
 
 .main-nav {
   display: flex;
-  float: right;
   margin-top: 58px;
 }
 
@@ -23,14 +22,14 @@
 .main-nav__nav-link {
   color: $primary-color;
   text-decoration: none;
-}
 
-.main-nav__nav-link:hover {
+&:hover {
   text-decoration: underline;
 }
 
-.main-nav__nav-link:visited {
+&:visited {
   color: $primary-color;
+}
 }
 
 .main-nav__nav-link--current {
