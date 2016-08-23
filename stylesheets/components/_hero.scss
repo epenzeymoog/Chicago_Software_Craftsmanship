@@ -1,0 +1,40 @@
+.header__page-title {
+  clear: both;
+  display: flex;
+  justify-content: center; }
+
+
+.text-wrapper {
+  margin: 30px 0px; }
+
+.sub-header {
+  font-family: 'Merriweather', serif;
+  font-size: 23.75px;
+  letter-spacing: .25px;
+  line-height: 45px; }
+
+.cloud-container {
+  height: 175px;
+  position: relative;
+  width: 800px; }
+
+.cloud-container__cloud1-img {
+  margin-top: 55px;
+  margin-left: 150px;
+  position: absolute; }
+
+.cloud-container__cloud2-img {
+  margin-top: 100px;
+  margin-left: 395px;
+  position: absolute; }
+
+.cloud-container__cloud3-img {
+  margin-top: 35px;
+  margin-left: 580px;
+  position: absolute; }
+
+.tagline-wrapper {
+  margin-top: 75px; }
+
+.tagline-wrapper__tagline-margin {
+  margin-top: 12px; }

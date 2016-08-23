@@ -1,0 +1,43 @@
+.header{
+  margin-top: 50px;
+}
+
+.header__company_logo{
+  float: left;
+}
+
+.nav{
+  height: 115px;
+  margin-bottom: 50px;
+}
+
+.main-nav{
+  display: flex;
+  float: right;
+  margin-top: 58px;
+}
+
+.main-nav__nav-item{
+  font-family: rift-soft;
+  font-size: 23.5px;
+  letter-spacing: .25px;
+  padding-left: 45px;
+}
+
+.main-nav__nav-link{
+  color: #F7F7FF;
+  text-decoration: none;
+}
+
+.main-nav__nav-link:hover{
+  text-decoration: underline;
+}
+
+.main-nav__nav-link:visited{
+  color: #F7F7FF;
+}
+
+.main-nav__nav-link--current{
+  color: #F7F7FF;
+  text-decoration: underline;
+}

@@ -1,0 +1,59 @@
+@import "variables";
+
+h1 {
+  color: $primary-color;
+  font-family: $rift;
+  font-size: 53.6px;
+  font-weight: 300;
+  letter-spacing: 5.2px; }
+
+.body-text {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  letter-spacing: .35px;
+  line-height: 25px; }
+
+.primary-text {
+  font-weight: 700;
+  letter-spacing: 1.2px; }
+
+.secondary-text {
+  font-weight: 300; }
+
+.emphasized-text {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 1.2px; }
+
+.body__link {
+  color: #F7F7FF;
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  line-height: 25px; }
+
+.section-title {
+  font-family: rift-soft;
+  font-size: 45.7px; }
+
+  .main-nav__nav-item {
+  font-family: rift-soft;
+  font-size: 23.5px;
+  letter-spacing: .25px;
+  padding-left: 45px; }
+
+.main-nav__nav-link {
+  color: #F7F7FF;
+  text-decoration: none; }
+
+.main-nav__nav-link:hover {
+  text-decoration: underline; }
+
+.main-nav__nav-link:visited {
+  color: #F7F7FF; }
+
+.main-nav__nav-link--current {
+  color: #F7F7FF;
+  text-decoration: underline; }
