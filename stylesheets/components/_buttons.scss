@@ -3,22 +3,24 @@
   border: 1.4px solid $primary-color;
   border-radius: 4.2px;
   color: $primary-color;
-  height: 43px;
+  height: 48px;
   font-family: $rift;
   font-weight: $regular; 
 }
 
 .btn__primary {
   clear: both;
-  font-size: 1.7em;
+  font-size: 2rem;
   letter-spacing: $medium-spacing;
   width: 147px;
 }
 
 .btn__primary--small {
-  font-size: $font--small;
+  font: $body-font;
+  font-family: $rift;
+  font-weight: $bold;
   height: 1.8em;
-  letter-spacing: 1.93px;
+  letter-spacing: $small-spacing;
   width: 88px;
 }
 

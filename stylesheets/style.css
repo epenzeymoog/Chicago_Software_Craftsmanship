@@ -96,6 +96,7 @@ h1 {
 html {
   box-sizing: border-box;
   font-size: 400 16px/1.5 "Merriweather", serif;
+  letter-spacing: 0.25px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -164,20 +165,22 @@ header, footer, body {
   border: 1.4px solid #F7F7FF;
   border-radius: 4.2px;
   color: #F7F7FF;
-  height: 43px;
+  height: 48px;
   font-family: rift-soft;
   font-weight: 400; }
 
 .btn__primary {
   clear: both;
-  font-size: 1.7em;
+  font-size: 2rem;
   letter-spacing: 3.45px;
   width: 147px; }
 
 .btn__primary--small {
-  font-size: 16px;
+  font: 400 16px/1.5 "Merriweather", serif;
+  font-family: rift-soft;
+  font-weight: 600;
   height: 1.8em;
-  letter-spacing: 1.93px;
+  letter-spacing: 2px;
   width: 88px; }
 
 .btn__tertiary {
@@ -251,9 +254,7 @@ footer {
   margin: 30px 0px; }
 
 .sub-header {
-  font-family: 'Merriweather', serif;
-  font-size: 23.75px;
-  letter-spacing: .25px;
+  font-size: 1.4rem;
   line-height: 45px; }
 
 .cloud-container {
