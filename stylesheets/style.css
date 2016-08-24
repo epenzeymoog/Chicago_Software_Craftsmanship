@@ -159,38 +159,25 @@ header, footer, body {
   border: 1.4px solid #F7F7FF;
   border-radius: 4.2px;
   color: #F7F7FF;
-  font-family: rift-soft;
-  font-weight: 700; }
-
-.primary-button {
-  background-color: red;
-  border: 1.4px solid #F7F7FF;
-  border-radius: 4.2px;
-  color: #F7F7FF;
-  font-family: rift-soft;
-  font-weight: 700; }
-
-.btn__main {
-  clear: both;
-  float: left;
-  font-size: 28px;
   height: 43px;
-  letter-spacing: 3.21px;
+  font-family: rift-soft;
+  font-weight: 400; }
+
+.btn__primary {
+  clear: both;
+  font-size: 1.7em;
+  letter-spacing: 3.45px;
   width: 147px; }
 
-.btn__secondary {
-  float: right;
+.btn__primary--small {
   font-size: 16px;
-  height: 26px;
+  height: 1.8em;
   letter-spacing: 1.93px;
   width: 88px; }
 
 .btn__tertiary {
   background-color: green;
-  border: 1px solid #F7F7FF;
   border-radius: 5.6px;
-  color: #F7F7FF;
-  font-family: rift-soft;
   font-size: 19.6px;
   height: 33px;
   vertical-align: top;

@@ -3,41 +3,28 @@
   border: 1.4px solid $primary-color;
   border-radius: 4.2px;
   color: $primary-color;
-  font-family: rift-soft;
-  font-weight: 700; }
-
-.primary-button{
-  background-color: $primary-btn-background;
-  border: 1.4px solid $primary-color;
-  border-radius: 4.2px;
-  color: $primary-color;
+  height: 43px;
   font-family: $rift;
-  font-weight: $bold;
+  font-weight: $regular; 
 }
 
-.btn__main{
+.btn__primary {
   clear: both;
-  float: left;
-  font-size: 28px;
-  height: 43px;
-  letter-spacing: 3.21px;
+  font-size: 1.7em;
+  letter-spacing: $medium-spacing;
   width: 147px;
 }
 
-.btn__secondary{
-  float: right;
-  font-size: 16px;
-  height: 26px;
+.btn__primary--small {
+  font-size: $font--small;
+  height: 1.8em;
   letter-spacing: 1.93px;
   width: 88px;
 }
 
-.btn__tertiary{
+.btn__tertiary {
   background-color: $secondary-btn-background;
-  border: 1px solid $primary-color;
   border-radius: 5.6px;
-  color: $primary-color;
-  font-family: $rift;
   font-size: 19.6px;
   height: 33px;
   vertical-align: top;
