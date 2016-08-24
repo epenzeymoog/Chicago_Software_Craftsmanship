@@ -1,0 +1,42 @@
+.top-margin-lg {
+  margin-top: 100px; 
+}
+
+.top-margin-sm {
+  margin-top: 35px; 
+}
+
+.bottom-margin-sm{
+  margin-bottom: 50px
+}
+
+.bottom-margin-lg {
+  margin-bottom: 100px;
+}
+
+.right-margin-sm{
+  margin-right: 20px;
+}
+
+.left {
+  float: left; 
+}
+
+.right {
+  float: right;
+}
+
+.img-percentage{
+  justify-content: center;
+  justify-items: center;
+  margin: 50px auto;
+  width: 40%;
+  @media #{$medium} {
+    width: 60%;
+  }
+
+  @media #{$large} {
+    margin: 100px auto;
+    width: 100%;
+  }
+}

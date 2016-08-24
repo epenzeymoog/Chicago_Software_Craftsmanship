@@ -5,7 +5,13 @@ h1, h2, h3, h4 {
 }
 
 p {
-  font: $body-font;
+  font-size: .9rem;
+  letter-spacing: $bold-spacing;
+  line-height: 20px;
+
+  @media #{$medium} {
+    font: $body-font;
+  }
 }
 
 .bold-text {
@@ -41,9 +47,13 @@ h3{
   line-height: 35px;
 }
 
-.sub-header {
-  font-size: 1.4rem;
-  line-height: 45px; 
+.sub-header{
+  width: 104%;
+
+    @media #{$large} {
+    font-size: 2rem;
+    line-height: 45px; 
+  }
 }
 
 .emphasized-text {
