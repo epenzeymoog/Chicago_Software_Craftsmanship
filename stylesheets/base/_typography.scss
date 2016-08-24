@@ -14,9 +14,18 @@ p {
 }
 
 h1 {
-  font-size: 3.3rem;
-  font-weight: $regular;
-  letter-spacing: $large-spacing; 
+  font-size: 1.4rem;
+  font-weight: $light;
+
+  @media #{$medium}{
+    font-size: 2rem;
+  }
+
+  @media #{$large}{
+    font-size: 3.3rem;
+    font-weight: $regular;
+    letter-spacing: $large-spacing; 
+  }
 }
 
 h2 {

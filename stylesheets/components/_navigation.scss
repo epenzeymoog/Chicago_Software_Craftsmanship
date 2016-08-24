@@ -16,14 +16,12 @@
 
 .main-nav {
   display: flex;
-  // margin-top: 58px;
-
-	@media #{$large} {
-	 float: right;
-	}
   @media #{$medium} {
     margin-top: 58px;
   }
+	@media #{$large} {
+	 float: right;
+	}
 }
 
 .main-nav__nav-item a {

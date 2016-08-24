@@ -1,7 +1,16 @@
 .header__page-title {
   clear: both;
   display: flex;
-  justify-content: center; }
+  justify-content: flex-start;
+  margin-left: 10px;
+    @media #{$medium}{
+      margin-left: 20px;
+    }
+    @media #{$large}{
+  justify-content: center; 
+  margin-left: 0;
+  }
+}
 
 .text-wrapper {
   margin: 30px 0px; 
