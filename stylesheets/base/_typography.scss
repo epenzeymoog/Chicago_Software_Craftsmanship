@@ -8,21 +8,19 @@ p {
   font: $body-font;
 }
 
+.bold-text {
+  font-weight: $bold;
+  letter-spacing: $bold-spacing; 
+}
+
 h1 {
   font-size: 3.3rem;
   font-weight: $regular;
   letter-spacing: $large-spacing; 
 }
 
-.body-text {
-  font-family: 'Merriweather', serif;
-  font-size: 1rem;
-  letter-spacing: .35px;
-  line-height: 25px; }
-
-.primary-text {
-  font-weight: 700;
-  letter-spacing: 1.2px; 
+.body__link {
+  color: $primary-color;
 }
 
 .main-nav__nav-link, .footer__item a {
@@ -39,7 +37,6 @@ h1 {
 }
 
 .main-nav__nav-link--current {
-  color: $primary-color;
   text-decoration: underline;
 }
 
@@ -48,15 +45,9 @@ h1 {
   line-height: 45px; 
 }
 
-.secondary-text {
-  font-weight: 300; }
-
 .emphasized-text {
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
   font-style: italic;
-  font-size: 16px;
-  letter-spacing: 1.2px; }
+}
 
 .main-nav__nav-item a {
   font: $header-font;
@@ -65,13 +56,7 @@ h1 {
   letter-spacing: $medium-spacing;
 }
 
-.body__link {
-  color: $primary-color;
-  font-family: 'Merriweather', serif;
-  font-size: 14px;
-  letter-spacing: 1.2px;
-  line-height: 25px; 
-}
+
 
 .section-title {
   font-family: rift-soft;
