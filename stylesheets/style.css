@@ -45,16 +45,20 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+h1, h2, h3, h4 {
+  font: 600 16px/1.5 rift-soft, sans-serif; }
+
+p {
+  font: 400 16px/1.5 "Merriweather", serif; }
+
 h1 {
-  color: #F7F7FF;
-  font-family: rift-soft;
-  font-size: 53.6px;
-  font-weight: 300;
+  font-size: 3.3rem;
+  font-weight: 400;
   letter-spacing: 5.2px; }
 
 .body-text {
   font-family: 'Merriweather', serif;
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: .35px;
   line-height: 25px; }
 
@@ -72,6 +76,12 @@ h1 {
   font-size: 16px;
   letter-spacing: 1.2px; }
 
+.main-nav__nav-item a {
+  font: 600 16px/1.5 rift-soft, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 3.45px; }
+
 .body__link {
   color: #F7F7FF;
   font-family: 'Merriweather', serif;
@@ -83,25 +93,14 @@ h1 {
   font-family: rift-soft;
   font-size: 45.7px; }
 
-.main-nav__nav-item {
-  font-family: rift-soft;
-  font-size: 23.5px;
-  letter-spacing: .25px;
-  padding-left: 45px; }
-
-.main-nav__nav-link {
-  color: #F7F7FF;
-  text-decoration: none; }
-
-.main-nav__nav-link:hover {
-  text-decoration: underline; }
-
-.main-nav__nav-link:visited {
-  color: #F7F7FF; }
-
-.main-nav__nav-link--current {
-  color: #F7F7FF;
-  text-decoration: underline; }
+html {
+  box-sizing: border-box;
+  font-size: 400 16px/1.5 "Merriweather", serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  html *, html *:before, html *:after {
+    box-sizing: inherit; }
 
 body {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#64a3ec+0,599ae6+25,007aff+100 */
@@ -117,10 +116,16 @@ body {
   display: flex;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64a3ec', endColorstr='#007aff',GradientType=0 );
   /* IE6-9 */
-  font-size: 16px;
+  font-size: 25px;
   justify-content: center;
   margin: 0 auto;
   width: 800px; }
+
+.test {
+  font-size: 40px; }
+
+.test_item {
+  font-size: 1rem; }
 
 header, footer, body {
   justify-content: center; }
@@ -155,7 +160,7 @@ header, footer, body {
   float: right; }
 
 .btn {
-  background-color: red;
+  background-color: #EA526F;
   border: 1.4px solid #F7F7FF;
   border-radius: 4.2px;
   color: #F7F7FF;
@@ -288,10 +293,7 @@ footer {
   display: flex;
   margin-top: 58px; }
 
-.main-nav__nav-item {
-  font-family: rift-soft;
-  font-size: 23.5px;
-  letter-spacing: .25px;
+.main-nav__nav-item a {
   padding-left: 45px; }
 
 .main-nav__nav-link {

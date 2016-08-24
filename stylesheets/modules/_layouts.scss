@@ -1,5 +1,18 @@
 @import "../base/variables";
 
+html {
+  box-sizing: border-box;
+
+    *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  font-size: $body-font;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#64a3ec+0,599ae6+25,007aff+100 */
   background: #64a3ec; /* Old browsers */
@@ -9,10 +22,18 @@ body{
   color: $primary-color;
   display: flex;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64a3ec', endColorstr='#007aff',GradientType=0 ); /* IE6-9 */
-  font-size: 16px;
+  font-size: 25px;
   justify-content: center;
   margin: 0 auto;
   width: 800px;
+}
+
+.test {
+  font-size: 40px;
+}
+
+.test_item {
+  font-size: 1rem;
 }
 
 header, footer, body{

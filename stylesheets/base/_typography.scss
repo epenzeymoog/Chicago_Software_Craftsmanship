@@ -1,15 +1,22 @@
 @import "variables";
 
+h1, h2, h3, h4 {
+  font: $header-font;
+}
+
+p {
+  font: $body-font;
+}
+
 h1 {
-  color: $primary-color;
-  font-family: $rift;
-  font-size: 53.6px;
-  font-weight: 300;
-  letter-spacing: 5.2px; }
+  font-size: 3.3rem;
+  font-weight: $regular;
+  letter-spacing: $large-spacing; 
+}
 
 .body-text {
   font-family: 'Merriweather', serif;
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: .35px;
   line-height: 25px; }
 
@@ -27,33 +34,22 @@ h1 {
   font-size: 16px;
   letter-spacing: 1.2px; }
 
+.main-nav__nav-item a {
+  font: $header-font;
+  font-size: 1.4rem;
+  font-weight: $regular;
+  letter-spacing: $medium-spacing;
+}
+
 .body__link {
   color: $primary-color;
   font-family: 'Merriweather', serif;
   font-size: 14px;
   letter-spacing: 1.2px;
-  line-height: 25px; }
+  line-height: 25px; 
+}
 
 .section-title {
   font-family: rift-soft;
-  font-size: 45.7px; }
-
-.main-nav__nav-item {
-  font-family: rift-soft;
-  font-size: 23.5px;
-  letter-spacing: .25px;
-  padding-left: 45px; }
-
-.main-nav__nav-link {
-  color: #F7F7FF;
-  text-decoration: none; }
-
-.main-nav__nav-link:hover {
-  text-decoration: underline; }
-
-.main-nav__nav-link:visited {
-  color: #F7F7FF; }
-
-.main-nav__nav-link--current {
-  color: #F7F7FF;
-  text-decoration: underline; }
+  font-size: 45.7px; 
+}

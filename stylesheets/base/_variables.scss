@@ -1,3 +1,9 @@
+//Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+$extra-bold: 700;
+
 //Font Color
 $primary-color: #F7F7FF;
 $grey: #4A4A4A;
@@ -6,13 +12,8 @@ $grey: #4A4A4A;
 $rift: rift-soft;
 $Merriweather: 'Merriweather';
 
-//Font weights
-$light: 100;
-$regular: 400;
-$bold: 700;
-
 //Font sizes
-$font--xsmall: 12px;
+// $font--xsmall: 12px; 
 $font--small: 16px;
 $font--medium: 23.75px;
 $font--large: 32px;
@@ -25,5 +26,11 @@ $medium-spacing: 3.45px;
 $large-spacing: 5.2px;
 
 //Buttons
-$primary-btn-background: red;
+$primary-btn-background: #EA526F;
 $secondary-btn-background: green;
+
+//Header Font
+$header-font: $bold 16px/1.5 rift-soft, sans-serif;
+
+//Body Font
+$body-font: $regular 16px/1.5 'Merriweather', serif;
