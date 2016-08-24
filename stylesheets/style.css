@@ -133,20 +133,17 @@ header, footer, body {
   display: flex;
   justify-content: center; }
 
-.skyline {
-  margin-top: 60px; }
-
-.flex__line-flex {
-  margin: 100px 0px; }
-
-.flex__line-flex-secondary {
+.top-margin-lg {
   margin-top: 100px; }
 
-.flex__line-flex {
-  margin: 100px 0px; }
+.top-margin-sm {
+  margin-top: 35px; }
 
-.flex__line-flex-secondary {
-  margin-top: 100px; }
+.bottom-margin-sm {
+  margin-bottom: 50px; }
+
+.bottom-margin-lg {
+  margin-bottom: 100px; }
 
 .left {
   float: left; }
@@ -154,12 +151,6 @@ header, footer, body {
 .right {
   float: right;
   margin-right: 20px; }
-
-.top-margin {
-  margin-top: 35px; }
-
-.bottom-margin {
-  margin-bottom: 50px; }
 
 .btn {
   background-color: red;
@@ -253,10 +244,9 @@ footer {
 .footer__end-title {
   font-family: rift-soft;
   font-size: 32px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 3.45px;
-  line-height: 35px;
-  margin-bottom: 25px; }
+  line-height: 35px; }
 
 .header__page-title {
   clear: both;

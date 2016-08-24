@@ -1,5 +1,5 @@
 .footer__item {
-  font-family: rift-soft;
+  font-family: $rift;
   font-weight: 100;
   letter-spacing: .22px;
   margin-right: 20px; }
@@ -10,10 +10,9 @@ footer {
 }
 
 .footer__end-title {
-  font-family: rift-soft;
-  font-size: 32px;
-  font-weight: 300;
-  letter-spacing: 3.45px;
+  font-family: $rift;
+  font-size: $font--large;
+  font-weight: $regular;
+  letter-spacing: $medium-spacing;
   line-height: 35px;
-  margin-bottom: 25px; 
 }
