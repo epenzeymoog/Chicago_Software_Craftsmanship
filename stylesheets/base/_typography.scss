@@ -52,10 +52,18 @@ h2 {
 
 h3{
   font-family: $rift;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: $regular;
   letter-spacing: $medium-spacing;
-  line-height: 35px;
+
+  @media #{$medium}{
+    font-size: 1.4rem;
+  }
+
+  @media #{$large}{
+    font-size: 2rem;
+    line-height: 35px;
+  }
 }
 
 .sub-header{
