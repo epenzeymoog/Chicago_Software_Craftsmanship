@@ -66,6 +66,22 @@ h1 {
   font-weight: 700;
   letter-spacing: 1.2px; }
 
+.main-nav__nav-link, .footer__item a {
+  color: #F7F7FF;
+  text-decoration: none; }
+  .main-nav__nav-link:hover, .footer__item a:hover {
+    text-decoration: underline; }
+  .main-nav__nav-link:visited, .footer__item a:visited {
+    color: #F7F7FF; }
+
+.main-nav__nav-link--current {
+  color: #F7F7FF;
+  text-decoration: underline; }
+
+.sub-header {
+  font-size: 1.4rem;
+  line-height: 45px; }
+
 .secondary-text {
   font-weight: 300; }
 
@@ -92,6 +108,19 @@ h1 {
 .section-title {
   font-family: rift-soft;
   font-size: 45.7px; }
+
+.footer__item, .footer__item a {
+  font: 400 16px/1.5 "Merriweather", serif;
+  font-family: rift-soft;
+  font-weight: 100;
+  letter-spacing: 0.25px;
+  margin-right: 20px; }
+
+.footer__end-title {
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 3.45px;
+  line-height: 35px; }
 
 html {
   box-sizing: border-box;
@@ -228,22 +257,9 @@ input[type=email] {
   line-height: 35px;
   margin-bottom: 25px; }
 
-.footer__item {
-  font-family: rift-soft;
-  font-weight: 100;
-  letter-spacing: .22px;
-  margin-right: 20px; }
-
 footer {
   margin-bottom: 100px;
   margin-top: 15px; }
-
-.footer__end-title {
-  font-family: rift-soft;
-  font-size: 32px;
-  font-weight: 400;
-  letter-spacing: 3.45px;
-  line-height: 35px; }
 
 .header__page-title {
   clear: both;
@@ -252,10 +268,6 @@ footer {
 
 .text-wrapper {
   margin: 30px 0px; }
-
-.sub-header {
-  font-size: 1.4rem;
-  line-height: 45px; }
 
 .cloud-container {
   height: 175px;
@@ -296,17 +308,5 @@ footer {
 
 .main-nav__nav-item a {
   padding-left: 45px; }
-
-.main-nav__nav-link {
-  color: #F7F7FF;
-  text-decoration: none; }
-  .main-nav__nav-link:hover {
-    text-decoration: underline; }
-  .main-nav__nav-link:visited {
-    color: #F7F7FF; }
-
-.main-nav__nav-link--current {
-  color: #F7F7FF;
-  text-decoration: underline; }
 
 /*# sourceMappingURL=style.css.map */

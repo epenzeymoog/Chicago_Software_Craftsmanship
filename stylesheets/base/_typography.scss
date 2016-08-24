@@ -22,7 +22,31 @@ h1 {
 
 .primary-text {
   font-weight: 700;
-  letter-spacing: 1.2px; }
+  letter-spacing: 1.2px; 
+}
+
+.main-nav__nav-link, .footer__item a {
+  color: $primary-color;
+  text-decoration: none;
+
+&:hover {
+  text-decoration: underline;
+}
+
+&:visited {
+  color: $primary-color;
+}
+}
+
+.main-nav__nav-link--current {
+  color: $primary-color;
+  text-decoration: underline;
+}
+
+.sub-header {
+  font-size: 1.4rem;
+  line-height: 45px; 
+}
 
 .secondary-text {
   font-weight: 300; }
@@ -52,4 +76,19 @@ h1 {
 .section-title {
   font-family: rift-soft;
   font-size: 45.7px; 
+}
+
+.footer__item, .footer__item a{
+  font: $body-font;
+  font-family: $rift;
+  font-weight: $light;
+  letter-spacing: $body-spacing;
+  margin-right: 20px; 
+}
+
+.footer__end-title {
+  font-size: 2rem;
+  font-weight: $light;
+  letter-spacing: $medium-spacing;
+  line-height: 35px;
 }

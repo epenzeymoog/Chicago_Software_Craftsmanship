@@ -1,18 +1,7 @@
-.footer__item {
-  font-family: $rift;
-  font-weight: 100;
-  letter-spacing: .22px;
-  margin-right: 20px; }
+@import "../base/variables";
 
 footer {
   margin-bottom: 100px;
   margin-top: 15px; 
 }
 
-.footer__end-title {
-  font-family: $rift;
-  font-size: $font--large;
-  font-weight: $regular;
-  letter-spacing: $medium-spacing;
-  line-height: 35px;
-}

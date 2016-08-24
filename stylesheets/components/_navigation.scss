@@ -18,20 +18,3 @@
   padding-left: 45px;
 }
 
-.main-nav__nav-link {
-  color: $primary-color;
-  text-decoration: none;
-
-&:hover {
-  text-decoration: underline;
-}
-
-&:visited {
-  color: $primary-color;
-}
-}
-
-.main-nav__nav-link--current {
-  color: $primary-color;
-  text-decoration: underline;
-}
