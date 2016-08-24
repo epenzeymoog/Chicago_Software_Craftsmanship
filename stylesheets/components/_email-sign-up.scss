@@ -1,12 +1,13 @@
+@import "../base/variables";
+
 input[type=email]{
   color: $grey;
-  font-family: $Merriweather;
-  font-weight: $light;
+  font: $body-font;
   padding: 6px 6px;
 }
 
 .email{
-  background: #fff;
+  background: $primary-color;
   border: solid 1px #424651 $primary-color;
   border-radius: 5.6px;
   height: 34px;

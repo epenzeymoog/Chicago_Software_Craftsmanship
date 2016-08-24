@@ -24,6 +24,14 @@ h2 {
   font-weight: $regular; 
 }
 
+h3{
+  font-family: $rift;
+  font-size: 2rem;
+  font-weight: $regular;
+  letter-spacing: $medium-spacing;
+  line-height: 35px;
+}
+
 .body__link {
   color: $primary-color;
 }
@@ -67,11 +75,4 @@ h2 {
   font-weight: $light;
   letter-spacing: $body-spacing;
   margin-right: 20px; 
-}
-
-.footer__end-title {
-  font-size: 2rem;
-  font-weight: $light;
-  letter-spacing: $medium-spacing;
-  line-height: 35px;
 }

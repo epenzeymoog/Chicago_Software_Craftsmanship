@@ -1,28 +1,23 @@
-.event-box__event-image {
-  float: left;
-  margin-bottom: 25px; 
-}
-
-.event-detail-box {
-  float: right;
-  margin-left: 35px;
-  width: 407px; 
-}
-
-.event-detail {
-  margin-bottom: 15px; 
-}
+@import "../base/variables";
 
 .event-box {
   height: 565px;
   width: 590px; 
 }
 
-.event-title {
-  font-family: rift-soft;
-  font-size: 32px;
-  font-weight: 300;
-  letter-spacing: 3.45px;
-  line-height: 35px;
+.event-box__event-image {
   margin-bottom: 25px; 
+}
+
+.event-title {
+  margin-bottom: 25px; 
+}
+
+.event-detail-box {
+  margin-left: 35px;
+  width: 407px; 
+}
+
+.event-detail {
+  margin-bottom: 15px; 
 }
