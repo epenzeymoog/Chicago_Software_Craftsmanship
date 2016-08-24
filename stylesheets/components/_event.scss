@@ -1,8 +1,8 @@
 @import "../base/variables";
 
 .event-box {
-  height: 565px;
-  width: 590px; 
+  height: 535px;
+  width: 100%; 
 }
 
 .event-box__event-image {
@@ -14,8 +14,9 @@
 }
 
 .event-detail-box {
-  margin-left: 35px;
-  width: 407px; 
+  height: 80%;
+  margin-left: 22%;
+  width: 55%; 
 }
 
 .event-detail {

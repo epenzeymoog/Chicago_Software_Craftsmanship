@@ -210,8 +210,8 @@ input[type=email] {
   width: 205px; }
 
 .event-box {
-  height: 565px;
-  width: 590px; }
+  height: 535px;
+  width: 100%; }
 
 .event-box__event-image {
   margin-bottom: 25px; }
@@ -220,8 +220,9 @@ input[type=email] {
   margin-bottom: 25px; }
 
 .event-detail-box {
-  margin-left: 35px;
-  width: 407px; }
+  height: 80%;
+  margin-left: 22%;
+  width: 55%; }
 
 .event-detail {
   margin-bottom: 15px; }
