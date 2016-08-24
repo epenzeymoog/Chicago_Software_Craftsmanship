@@ -145,12 +145,14 @@ header, footer, body {
 .bottom-margin-lg {
   margin-bottom: 100px; }
 
+.right-margin-sm {
+  margin-right: 20px; }
+
 .left {
   float: left; }
 
 .right {
-  float: right;
-  margin-right: 20px; }
+  float: right; }
 
 .btn {
   background-color: red;
