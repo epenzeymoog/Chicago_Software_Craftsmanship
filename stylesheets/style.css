@@ -60,6 +60,10 @@ h1 {
   font-weight: 400;
   letter-spacing: 5.2px; }
 
+h2 {
+  font-size: 2.9rem;
+  font-weight: 400; }
+
 .body__link {
   color: #F7F7FF; }
 
@@ -86,10 +90,6 @@ h1 {
   font-size: 1.4rem;
   font-weight: 400;
   letter-spacing: 3.45px; }
-
-.section-title {
-  font-family: rift-soft;
-  font-size: 45.7px; }
 
 .footer__item, .footer__item a {
   font: 100 16px/1.5 "Merriweather", serif;
@@ -132,12 +132,6 @@ body {
   justify-content: center;
   margin: 0 auto;
   width: 800px; }
-
-.test {
-  font-size: 40px; }
-
-.test_item {
-  font-size: 1rem; }
 
 header, footer, body {
   justify-content: center; }
