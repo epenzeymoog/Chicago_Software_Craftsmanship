@@ -32,6 +32,16 @@ h3{
   line-height: 35px;
 }
 
+.sub-header {
+  font-size: 1.4rem;
+  line-height: 45px; 
+}
+
+.emphasized-text {
+  font-style: italic;
+}
+
+//Links
 .body__link {
   color: $primary-color;
 }
@@ -51,15 +61,6 @@ h3{
 
 .main-nav__nav-link--current {
   text-decoration: underline;
-}
-
-.sub-header {
-  font-size: 1.4rem;
-  line-height: 45px; 
-}
-
-.emphasized-text {
-  font-style: italic;
 }
 
 .main-nav__nav-item a {

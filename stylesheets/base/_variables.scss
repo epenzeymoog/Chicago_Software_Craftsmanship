@@ -28,3 +28,9 @@ $header-font: $bold 16px/1.5 rift-soft, sans-serif;
 
 //Body Font
 $body-font: $light 16px/1.5 'Merriweather', serif;
+
+//Medium Screens
+$large: "(min-width: 830px)";
+
+//Small Screens
+$medium: "(min-width: 500px)";

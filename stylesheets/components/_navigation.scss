@@ -7,14 +7,34 @@
 .nav {
   height: 115px;
   margin-bottom: 50px;
+  margin-left: 20px;
+
+  @media #{$medium} {
+    margin-right: 0;
+  }
 }
 
 .main-nav {
   display: flex;
-  margin-top: 58px;
+  // margin-top: 58px;
+
+	@media #{$large} {
+	 float: right;
+	}
+  @media #{$medium} {
+    margin-top: 58px;
+  }
 }
 
 .main-nav__nav-item a {
-  padding-left: 45px;
+  padding-left: 20px;
+
+  	@media #{$large} {
+	   padding-left: 45px;
+	}
 }
 
+
+.main-nav__nav-item {
+  display: block;
+}
