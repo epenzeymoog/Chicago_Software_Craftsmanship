@@ -35,8 +35,19 @@ h1 {
 }
 
 h2 {
-  font-size: 2.9rem;
+  font-size: 1.9rem;
   font-weight: $regular; 
+  display: flex;
+  justify-content: center;
+
+  @media #{$medium}{
+    font-size: 2.9rem;
+  }
+
+  @media #{$large}{
+    display: block;
+    margin-left: 0;
+  }
 }
 
 h3{
