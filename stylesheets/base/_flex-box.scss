@@ -1,22 +1,19 @@
 header, footer, body{
+  align-items: center;
   display: flex;
   flex-direction: column;
   width: auto;
-  align-items: center;
-
-  // @media #{$medium} {
-  //   width: 500px;
-  // }
 
   @media #{$large} {
-   justify-content: center;
    display: block;
+   justify-content: center;
    width: 800px;
   }
 }
 
 .flex-box{
   flex-direction: column;
+    
     @media #{$medium} {
     display: flex;
     flex-direction: row;

@@ -1,17 +1,21 @@
-.top-margin-lg {
-  margin-top: 100px; 
-}
-
 .top-margin-sm {
   margin-top: 35px; 
 }
 
-.bottom-margin-sm{
+.top-margin-lg {
+  margin-top: 100px; 
+}
+
+.bottom-margin-sm {
   margin-bottom: 50px
 }
 
 .bottom-margin-lg {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
+
+  @media #{$medium} {
+    margin-bottom: 100px;
+  }
 }
 
 .right-margin-sm{
@@ -26,11 +30,12 @@
   float: right;
 }
 
-.img-percentage{
+.img-percentage {
   justify-content: center;
   justify-items: center;
   margin: 50px auto;
   width: 40%;
+
   @media #{$medium} {
     width: 60%;
   }
@@ -41,11 +46,12 @@
   }
 }
 
- .img-percentage-2{
+ .img-percentage-2 {
   justify-content: center;
   justify-items: center;
   margin: 50px auto 10px auto;
   width: 40%;
+
   @media #{$medium} {
     width: 60%;
   }
@@ -56,10 +62,18 @@
   }
 }
 
-.hide{
+.hide {
 	display: none;
 
-  @media #{$large}{
+  @media #{$large} {
     display: block;
+  }
+}
+
+.no-margin {
+  margin: 0;
+
+  @media #{$medium} {
+    margin: 50px auto 0px auto;
   }
 }

@@ -27,7 +27,7 @@ h1 {
     font-size: 2rem;
   }
 
-  @media #{$large}{
+  @media #{$large} {
     font-size: 3.3rem;
     font-weight: $regular;
     letter-spacing: $large-spacing; 
@@ -35,38 +35,38 @@ h1 {
 }
 
 h2 {
+  display: flex;
   font-size: 1.9rem;
   font-weight: $regular; 
-  display: flex;
   justify-content: center;
 
-  @media #{$medium}{
+  @media #{$medium} {
     font-size: 2.9rem;
   }
 
-  @media #{$large}{
+  @media #{$large} {
     display: block;
     margin-left: 0;
   }
 }
 
-h3{
+h3 {
   font-family: $rift;
   font-size: 1rem;
   font-weight: $regular;
   letter-spacing: $medium-spacing;
 
-  @media #{$medium}{
+  @media #{$medium} {
     font-size: 1.4rem;
   }
 
-  @media #{$large}{
+  @media #{$large} {
     font-size: 2rem;
     line-height: 35px;
   }
 }
 
-.sub-header{
+.sub-header {
   width: 104%;
 
     @media #{$large} {
@@ -88,13 +88,13 @@ h3{
   color: $primary-color;
   text-decoration: none;
 
-&:hover {
-  text-decoration: underline;
-}
+  &:hover {
+    text-decoration: underline;
+  }
 
-&:visited {
-  color: $primary-color;
-}
+  &:visited {
+    color: $primary-color;
+  }
 }
 
 .main-nav__nav-link--current {
