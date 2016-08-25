@@ -7,8 +7,9 @@ html {
     box-sizing: inherit;
   }
 
-  font-size: $body-font;
+  font: $body-font;
   letter-spacing: $body-spacing;
+  overflow-x: hidden; 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

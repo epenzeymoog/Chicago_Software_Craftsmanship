@@ -3,6 +3,11 @@ header, footer, body{
   flex-direction: column;
   width: auto;
   align-items: center;
+
+  // @media #{$medium} {
+  //   width: 500px;
+  // }
+
   @media #{$large} {
    justify-content: center;
    display: block;
