@@ -3,9 +3,9 @@
   border: 1.4px solid $primary-color;
   border-radius: 4.2px;
   color: $primary-color;
-  height: 48px;
   font-family: $rift;
   font-weight: $regular; 
+  height: 48px;
 }
 
 .btn__primary {
@@ -16,12 +16,20 @@
 }
 
 .btn__primary--small {
-  font: $body-font;
-  font-family: $rift;
-  font-weight: $bold;
-  height: 1.8em;
-  letter-spacing: $small-spacing;
-  width: 88px;
+  font-size: 1.6rem;
+  height: 1.6em;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+
+  @media #{$medium} {
+    font: $body-font;
+    font-family: $rift;
+    font-weight: $bold;
+    height: 1.8em;
+    letter-spacing: $small-spacing;
+    width: 88px;
+  } 
 }
 
 .btn__tertiary {

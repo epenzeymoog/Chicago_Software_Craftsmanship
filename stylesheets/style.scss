@@ -1,7 +1,10 @@
 @import "base/reset";
 @import "base/typography";
 @import "base/variables";
-@import "modules/layouts";
+@import "base/utilities";
+@import "base/base";
+@import "base/flex-box";
+@import "components/about";
 @import "components/buttons";
 @import "components/email-sign-up";
 @import "components/event";

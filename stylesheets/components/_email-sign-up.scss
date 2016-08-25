@@ -1,15 +1,31 @@
 @import "../base/variables";
 
-input[type=email]{
+input[type=email] {
   color: $grey;
   font: $body-font;
   padding: 6px 6px;
 }
 
-.email{
+.email {
   background: $primary-color;
   border: solid 1px #424651 $primary-color;
   border-radius: 5.6px;
   height: 34px;
   width: 205px;
+}
+
+.text-wrapper-2 {
+  margin: 30px auto; 
+  text-align: center;
+  width: 40%;
+
+  @media #{$medium} {
+    width: 60%;
+  }
+
+  @media #{$large} {
+    margin: 0;
+    text-align: left;
+    width: 100%;
+  }
 }

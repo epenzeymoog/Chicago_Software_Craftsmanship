@@ -8,17 +8,21 @@
   height: 115px;
   margin-bottom: 50px;
   margin-left: 20px;
+  text-align: center;
 
   @media #{$medium} {
     margin-right: 0;
+    text-align: left;
   }
 }
 
 .main-nav {
   display: flex;
+
   @media #{$medium} {
     margin-top: 58px;
   }
+  
 	@media #{$large} {
 	 float: right;
 	}

@@ -1,0 +1,16 @@
+@import "../base/variables";
+
+.long-text {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: left;
+  width: 90%;
+
+  @media #{$medium} {
+    width: 90%;
+  }  
+
+  @media #{$large} {
+    width: 100%;
+  }
+}
