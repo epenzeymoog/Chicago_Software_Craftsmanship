@@ -7,6 +7,8 @@ upcoming events, as well as a list of high-quality, curated resources for develo
 
 <h2>Check me out:</h2>
 <p>Clone the repo.</p>
+
+<h3>Install Sass.</h3>
 <p>This project has SASS styling. You can quickly install Sass by completing the following directions 
 or using <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#using_sass">their documentation.</a></p>
 <p>Sass requires ruby, which comes pre-installed on Macs. If you're using a Windows computer, you will have to 
@@ -20,7 +22,9 @@ to use until you understand how Sass works). To do this, go to your teminal and 
 <p>This will tell Sass to go through your Sass files and compile them into your CSS file.</p>
 <p>Option 2: Tell Sass to run a watch so that it will constantly be looking for changes to your Sass files and compiling them into your CSS file. This is quicker and simpler. My  To do this, open a new tab in your teminal and run:</p>
 <code>sass --watch style.scss:style.css</code>
-<p>If you get an error when running this command, first try deleting the directory in the project called .sass-cache (don't worry, it'll all come back next time Sass compiles) and re-running the command. If you have errors in your files, they will be pointed out in the terminal and you'll have to fix them before Sass can start watching for chagnes.</p>
+<p>If you get an error when running this command, first try deleting the directory in the project called .sass-cache (don't worry, it'll all come back next time Sass compiles) and re-running the command. If you have errors in your files, they will be pointed out in the terminal and you'll have to fix them before Sass can start watching for changes.</p>
 
-<p>In order to view the website locally, run
-<code>open index.html</code> in your terminal or right click in the <code>index.html</code> file and select "Open in Browser."</p>
+<h3>Install Middleman.</h3>
+<p>This site runs on Middleman, a static website generator.</p>
+<p>The documentation for installing Middleman is <a href="https://middlemanapp.com/basics/install/">here.</a>
+<p>In order to view the website locally, run <code>bundle exec middleman server</code> and view the website at localhost: 4567</p>
